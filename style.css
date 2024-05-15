@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu_container {
+  font-size: 25px;
+  color: yellow;
+}
+
+.menu_container {
+  display: flex;
+  gap: 50px;
+}
+
+.bannr_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner_title {
+  font-size: 40px;
+}
+
+.banner_btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 183, 0);
+  color: black;
+  border: none;
+}
+
+#back_img {
+  background-image: url("images/back2.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.461);
+  margin-bottom: 2rem;
+}
+
+.banner_down_img {
+  margin-top: 2rem;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #9590903b;
+  padding: 35px;
+  margin: 0px 30px 0px 30px;
+  border-radius: 10px;
+}
+
+.services_img {
+  display: block;
+  margin: auto;
+}
+
+.box_shado {
+  box-shadow: 4px 4px 8px gray;
+  width: 400px;
+  height: 400px;
+  display: inline;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.box_shaddo_center {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img_contact_area {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.foter_img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer_area {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  padding: 50px;
+}
+
+.text_style {
+  color: rgb(206, 134, 102);
+  gap: 10px;
+}
+
+.p_gap {
+  line-height: 1.5rem;
+}
+
+.btn_contact {
+  background-color: cyan;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.list_none {
+  list-style: none;
+}
+
+.img_cont {
+  display: flex;
+  justify-content: center;
+}
+
+.i_and_p {
+  display: flex;
+}
+
+.inpt {
+  padding: 10px;
+  background-color: rgb(210, 194, 194);
+  border: none;
+}
+
+.text_col {
+  color: rgb(197, 179, 179);
+}
+
+#bold {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu_container {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .bannr_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner_left {
+    order: 2;
+    margin-bottom: 10px;
+  }
+
+  .banner_right {
+    order: 1;
+  }
+
+  .banner_title {
+    font-size: 10px;
+  }
+
+  .banner_btn {
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+
+  .banner_img {
+    width: 50%;
+  }
+
+  .banner_down_img {
+    padding: 10px 5px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .services_all_area {
+    padding: 0 5px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .banner_mob_img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .service {
+    margin-bottom: 10px;
+  }
+
+  .box_shado {
+    width: 50%;
+  }
+
+  .img_contact_area {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+  }
+
+  .left_area,
+  .right_area {
+    width: 50%;
+  }
+
+  .mob_res_img {
+    width: 200px;
+  }
+
+  .cont_mob {
+    font-size: 5px;
+  }
+
+  .footer_area span {
+    width: 100%;
+  }
+
+  .footer_area span li {
+    font-size: 20px;
+  }
+
+  .footer_area li small {
+    font-size: 20px;
+  }
+
+  .box_shaddo_center {
+    width: 100%;
+    height: 280%;
+  }
+
+  .footer_area {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer__socials {
+    margin-top: 10px;
+  }
+
+  .inpt {
+    width: 50%;
+  }
+
+  .text_col {
+    font-size: 30px;
+  }
+
+  .banner_btn {
+    padding: 15px 25px;
+  }
+
+  .banner_btn b {
+    font-size: 15px;
+  }
+
+  .banner_title {
+    font-size: 20px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  #bold {
+    font-size: 15px;
+  }
+}
+
+/* Media query for medium devices */
+/* @media only screen and (min-width: 768px) and (max-width: 992px) {} */

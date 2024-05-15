@@ -40,12 +40,12 @@ nav {
 }
 
 #back_img {
-  background-image: url("images/back2.jpg");
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.461);
   margin-bottom: 2rem;
+  background-image: url("images/back2.jpg");
 }
 
 .banner_down_img {
